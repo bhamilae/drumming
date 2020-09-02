@@ -1,7 +1,7 @@
 
 //Detecting Button Press
 
-// the dom method here will give all the buttoms with drum class
+// the dom method here will give all the buttons with drum class
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 // here we are using anonymous function so that we use one function for all drum clicks
 for (var i = 0; i < numberOfDrumButtons; i++){
